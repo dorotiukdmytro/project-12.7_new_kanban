@@ -1,5 +1,5 @@
 // KANBAN CARD CLASS
-function Card(description) {
+function Card(id, name) {
 	var self = this;
 	
 	this.id = id;
