@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #7EC0AC;
+}
+.column {
+  margin: 10px 20px;
+  background-color: #95DAC2;
+  border-radius: 10px; 
+  min-width: 400px;
+  min-height: 40vh;
+  position: relative;
+}
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.column-title {
+	color: #2C3337;
+	text-align: center;
+}
+.column-card-list {
+	color: black;
+	font-size: 20px;
+}
+.card {
+	background-color: white;
+	list-style-type: none;
+	width: 300px;
+  min-height: 10vh;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+.card-description {
+  padding-left: 10px;
+  text-align: left;
+}
+.create-column {
+	color: #7A9DB5;
+	list-style-type: none;
+  text-align: right;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  background: grey;
+  border-radius: 10px;
+  border: none;
+}
+.create-column:hover {
+  color: blue;
+  background: lightblue;
+  box-shadow: 1px 1px 20px 5px white;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 26px;
+	text-align: center;
+}
+.card-placeholder {
+  list-style-type: none;
+  box-sizing: border-box;
+  display: block;
+  height: 20px;
+  margin-bottom: 5px;
+  border: 2px solid lightgrey;
+  background-color: green;
+}
+.add-card {
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  background: #DDD796;
+  border: none;
+}
+.add-card:hover {
+  background-color: white;
+}
+.btn-delete {
+  list-style-type: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  border-radius: 4px;
+  border: none;
+}
+.btn-delete:hover {
+  border: 1px solid red;
+}
+.btn-delete-card {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: red;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+.btn-delete-card:hover {
+  border: 1px red solid;
+}
